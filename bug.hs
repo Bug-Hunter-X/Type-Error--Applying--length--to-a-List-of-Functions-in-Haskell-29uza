@@ -1,0 +1,1 @@
+This Haskell code attempts to use a polymorphic function `length` on a list of functions, which is not directly supported. The compiler error arises because the type of the list elements (`[a -> b]`) does not match the expected type of the `length` function.  The type of `length` is `[a] -> Int`, which expects a list of values of any type `a`, not a list of functions.
