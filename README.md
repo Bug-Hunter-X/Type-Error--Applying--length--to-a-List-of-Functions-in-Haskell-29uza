@@ -1,0 +1,1 @@
+This repository demonstrates a common type error in Haskell when applying the `length` function to a list of functions. The error arises from type mismatch.  The `bug.hs` file shows the erroneous code, and the `bugSolution.hs` file provides a corrected version.
